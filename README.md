@@ -1,6 +1,6 @@
 # GEDL
 Relevant codes of the paper "GEDL: A General Encryption Method Based on Deep Learning"
-
+## Method
 GEDL applies a two-stage structure.
 
 At the first stage, both parties in the communication get copies of the public training set and modify them under the instruction of the key, completing the construction of confidential synthetic training sets, respectively. And the synthetic training sets mastered by both parties are expected to be consistent. Afterward, the hyperparameters in the key instruct the training on the synthetic training sets. Hence a large number of parameters are generated, which can be arranged as weight vector tables, followed by a further process on them with the SHA-256 function to obtain codebooks. So far, the first stage called communication preparation ends.
@@ -18,6 +18,8 @@ For text encryption:
 ![image](https://github.com/tempAmbi/GEDL/tree/master/images/process2.eps)
 For image encryption:
 ![image](https://github.com/tempAmbi/GEDL/tree/master/images/process_image.eps)
+
+## Steps
 
 >A：Construction of Synthetic Training Set
 - For text encryption
@@ -61,3 +63,13 @@ For image encryption:
     `plaintext_sensitivity_analysis.py`
     `ciphertext_sensitivity_analysis.py`
     `efficiency_analysis.py`
+
+## Case study
+>For text encryption
+- plaintext:The student is reading papers.  
+- ciphertext: 8905101db62d3c8bec10a625c7344b845e17c54f9d39f21cdac93c5459750772637fc4f51d4a0dd3e0b5815d768e12f667ead48afeca2afa48b5578ccd4dddfdfa0785e3385c8c4e67398c4f86c0b8e155dddc72744dd2c31a11aca2e9e32444f4de7dca05d412e2dc62e47c990c760ada68996faf50645530b8c1ee0213fc68a92ae66f42b27778bfd7958bb2cc2f3bc450c929eb1a4a116031ebd65b7bc2b4
+>For image encryption
+-plaintext:
+![image](https://github.com/tempAmbi/GEDL/tree/master/images/image_original.eps)
+-ciphertext:
+![image](https://github.com/tempAmbi/GEDL/tree/master/images/image_encrypted.eps)
