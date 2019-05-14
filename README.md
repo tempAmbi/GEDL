@@ -30,25 +30,34 @@ For image encryption:
     Step 6: Add incremental corpus to original corpus
 - For image encryption
 >>
+    Step 1: Get the Mnist training set
+    Step 2: Obtain the additional images instructed by the key
+    Step 3: Assign corresponding labels according to the convention
+    Step 4: Add incremental training set to original training set
 
 >B: Training
 - For text encryption
 >>
-    Run word2vec_model.py for word2vec model
-    Run fasttext.py for fasttext model
+    Run `word2vec_model.py` for word2vec model
+    Run `fasttext.py` for fasttext model
     As for other models, please refer to the corresponding source codes in github.
 - For image encryption
 >>
+    Run either `mnist_softmax.py` or `mnist_deep.py`
+    As for other models, please refer to the corresponding source codes in github.
 
->C: Process the word vector table
+>C: Process the weight vector table
 >>
-    Run table_process.py
+- For text encryption
+    Run `table_process.py`
+- For image encryption
+    Run `read_model.py`
 >D: Some experiments
 >>
-    recovery.py
-    frequency_analysis.py
-    correlation_analysis_1.py
-    correlation_analysis_2.py
-    plaintext_sensitivity_analysis.py
-    ciphertext_sensitivity_analysis.py
-    efficiency_analysis.py
+    `recovery.py`
+    `frequency_analysis.py`
+    `correlation_analysis_1.py`
+    `correlation_analysis_2.py`
+    `plaintext_sensitivity_analysis.py`
+    `ciphertext_sensitivity_analysis.py`
+    `efficiency_analysis.py`
