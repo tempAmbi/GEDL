@@ -19,7 +19,8 @@ For text encryption:
 For image encryption:
 ![image](https://github.com/tempAmbi/GEDL/tree/master/images/process_image.eps)
 
->A：Construction of Synthetic Corpus
+>A：Construction of Synthetic Training Set
+- For text encryption
 >>
     Step 1: Get Wikipedia corpus resources
     Step 2: Process the wiki's xml file into a normal txt file--process_xml.py
@@ -27,11 +28,18 @@ For image encryption:
     Step 4: Participle--segmentation_Chinese.py or segmentation_English.py
     Step 5: Process incremental corpus--incremental_corpus_preprocess.py
     Step 6: Add incremental corpus to original corpus
+- For image encryption
+>>
+
 >B: Training
+- For text encryption
 >>
     Run word2vec_model.py for word2vec model
     Run fasttext.py for fasttext model
     As for other models, please refer to the corresponding source codes in github.
+- For image encryption
+>>
+
 >C: Process the word vector table
 >>
     Run table_process.py
