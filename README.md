@@ -11,13 +11,13 @@ At the second stage, when information requires transmitting, encryption and decr
 
 After completing the transmission of information, both ends adjust the codebook in a certain way. Therefore, when the next information needs to be transmitted, it is encrypted based on the new codebook.
 
-![image](https://github.com/tempAmbi/GEDL/tree/master/images/overview_conf.png)
+![image](https://github.com/tempAmbi/GEDL/tree/master/images/overview_conf.eps)
 
 And the process of using the codebook is shown as the following figure.
 For text encryption:
-![image](https://github.com/tempAmbi/GEDL/tree/master/images/process2.png)
+![image](https://github.com/tempAmbi/GEDL/tree/master/images/process2.eps)
 For image encryption:
-![image](https://github.com/tempAmbi/GEDL/tree/master/images/process_image.png)
+![image](https://github.com/tempAmbi/GEDL/tree/master/images/process_image.eps)
 
 >A：Construction of Synthetic Corpus
 >>
