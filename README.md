@@ -11,13 +11,13 @@ At the second stage, when information requires transmitting, encryption and decr
 
 After completing the transmission of information, both ends adjust the codebook in a certain way. Therefore, when the next information needs to be transmitted, it is encrypted based on the new codebook.
 
-![](https://github.com/tempAmbi/GEDL/tree/master/images/overview_conf.png)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/overview_conf.png)
 
 And the process of using the codebook is shown as the following figure.
 For text encryption:
-![](https://github.com/tempAmbi/GEDL/tree/master/images/process2.png)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/process2.png)
 For image encryption:
-![](https://github.com/tempAmbi/GEDL/tree/master/images/process_image.png)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/process_image.png)
 
 ## Steps
 
@@ -70,6 +70,6 @@ For image encryption:
 - ciphertext: 8905101db62d3c8bec10a625c7344b845e17c54f9d39f21cdac93c5459750772637fc4f51d4a0dd3e0b5815d768e12f667ead48afeca2afa48b5578ccd4dddfdfa0785e3385c8c4e67398c4f86c0b8e155dddc72744dd2c31a11aca2e9e32444f4de7dca05d412e2dc62e47c990c760ada68996faf50645530b8c1ee0213fc68a92ae66f42b27778bfd7958bb2cc2f3bc450c929eb1a4a116031ebd65b7bc2b4
 >For image encryption
 -plaintext:
-![](https://github.com/tempAmbi/GEDL/tree/master/images/image_original.png)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/image_original.png)
 -ciphertext:
-![](https://github.com/tempAmbi/GEDL/tree/master/images/image_encrypted.png)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/image_encrypted.png)
