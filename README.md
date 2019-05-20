@@ -68,10 +68,27 @@ For image encryption:
 
 ## Case study
 >For text encryption
+>> English text
 - plaintext:The student is reading papers.  
 - ciphertext: 8905101db62d3c8bec10a625c7344b845e17c54f9d39f21cdac93c5459750772637fc4f51d4a0dd3e0b5815d768e12f667ead48afeca2afa48b5578ccd4dddfdfa0785e3385c8c4e67398c4f86c0b8e155dddc72744dd2c31a11aca2e9e32444f4de7dca05d412e2dc62e47c990c760ada68996faf50645530b8c1ee0213fc68a92ae66f42b27778bfd7958bb2cc2f3bc450c929eb1a4a116031ebd65b7bc2b4
+>> Chinese text
+- plaintext: 学生读论文       
+- ciphertext:
+a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3997176b410b558705f25d9b6e9d0ddff736e0cef1e09c506cbc97b7c7262f8ebb739ae52161c1079519c168e888decf82e4c1352ed59257ec7fd34a244856562
+
 >For image encryption
+>> one channel:
+
 -plaintext:
 ![](https://github.com/tempAmbi/GEDL/raw/master/images/image_original.png)
+
 -ciphertext:
 ![](https://github.com/tempAmbi/GEDL/raw/master/images/image_encrypted.png)
+
+>> three channels:
+
+-plaintext:
+![](https://github.com/tempAmbi/GEDL/raw/master/images/image2_decryped.png)
+
+-ciphertext:
+![](https://github.com/tempAmbi/GEDL/raw/master/images/image2_encrypted.png)
