@@ -16,7 +16,7 @@ After completing the transmission of information, both ends adjust the codebook 
 And the process of using the codebook is shown as the following figure.
 
 For text encryption:
-![](https://github.com/tempAmbi/GEDL/raw/master/images/process2.eps)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/process2.png)
 
 For image encryption:
 ![](https://github.com/tempAmbi/GEDL/raw/master/images/process_image.png)
