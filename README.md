@@ -88,7 +88,7 @@ a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3997176b410b55870
 >> three channels:
 
 -plaintext:
-![](https://github.com/tempAmbi/GEDL/raw/master/images/image2_decryped.png)
+![](https://github.com/tempAmbi/GEDL/raw/master/images/image2_decrypted.png)
 
 -ciphertext:
 ![](https://github.com/tempAmbi/GEDL/raw/master/images/image2_encrypted.png)
